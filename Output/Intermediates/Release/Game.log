@@ -1,0 +1,65 @@
+﻿Build started 2018-08-13 1:28:23 PM.
+     1>Project "C:\Users\itsAr\Development\Projects\LD42\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Game.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /IC:\Users\itsAr\Development\Projects\LD42\Dependencies\SFML\include\ /Zi /nologo /W3 /WX- /diagnostics:classic /sdl- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\\" /Fd"C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Sources\GameStates\MainMenuState.cpp
+         MainMenuState.cpp
+     1>c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(52): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(67): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(82): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\itsAr\Development\Projects\LD42\Output\Release\Game.exe" /NOLOGO /LIBPATH:C:\Users\itsAr\Development\Projects\LD42\Dependencies\SFML\lib\ "sfml-main.lib" "sfml-system.lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-audio.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FULL /PDB:"C:\Users\itsAr\Development\Projects\LD42\Output\Release\Game.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\itsAr\Development\Projects\LD42\Output\Release\Game.lib" /MACHINE:X86 /SAFESEH C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Animation.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Entity.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\EntityManager.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Item.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Player.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Bottle.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\SpeedPotion.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\UselessItem.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Game.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\AboutState.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\GameOverState.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\GameStateManager.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\MainMenuState.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\PauseState.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\PlayState.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Main.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Resources.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\GrassTile.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Tile.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\WaterTile.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\World.obj
+     1>LIBCMT.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         1 of 1563 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+     1>sfml-main.lib(MainWin32.cpp.obj) : warning LNK4049: locally defined symbol ___p___argc imported
+     1>sfml-main.lib(MainWin32.cpp.obj) : warning LNK4049: locally defined symbol ___p___argv imported
+         Game.vcxproj -> C:\Users\itsAr\Development\Projects\LD42\Output\Release\Game.exe
+       FinalizeBuildStatus:
+         Deleting file "C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Game.tlog\unsuccessfulbuild".
+         Touching "C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Release\Game.tlog\Game.lastbuildstate".
+     1>Done Building Project "C:\Users\itsAr\Development\Projects\LD42\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\itsAr\Development\Projects\LD42\Game\Game.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(52): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+         c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(67): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+         c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(82): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+
+
+       "C:\Users\itsAr\Development\Projects\LD42\Game\Game.vcxproj" (Build target) (1) ->
+       (Link target) -> 
+         LIBCMT.lib(initializers.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         sfml-main.lib(MainWin32.cpp.obj) : warning LNK4049: locally defined symbol ___p___argc imported
+         sfml-main.lib(MainWin32.cpp.obj) : warning LNK4049: locally defined symbol ___p___argv imported
+
+    6 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:16.72

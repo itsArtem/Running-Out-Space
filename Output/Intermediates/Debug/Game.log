@@ -1,0 +1,52 @@
+﻿Build started 2018-08-13 1:29:19 PM.
+     1>Project "C:\Users\itsAr\Development\Projects\LD42\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Game.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\CL.exe /c /IC:\Users\itsAr\Development\Projects\LD42\Dependencies\SFML\include\ /ZI /nologo /W3 /WX- /diagnostics:classic /sdl- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\\" /Fd"C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Sources\GameStates\MainMenuState.cpp Sources\Main.cpp
+         MainMenuState.cpp
+     1>c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(52): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(67): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+     1>c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(82): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+         Main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\itsAr\Development\Projects\LD42\Output\Debug\Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\itsAr\Development\Projects\LD42\Dependencies\SFML\lib\ "sfml-main-d.lib" "sfml-system-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\itsAr\Development\Projects\LD42\Output\Debug\Game.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\itsAr\Development\Projects\LD42\Output\Debug\Game.lib" /MACHINE:X86 C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Animation.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Entity.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\EntityManager.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Item.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Player.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Bottle.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\SpeedPotion.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\UselessItem.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Game.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\AboutState.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\GameOverState.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\GameStateManager.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\MainMenuState.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\PauseState.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\PlayState.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Main.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Resources.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\GrassTile.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Tile.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\WaterTile.obj
+         C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\World.obj
+         Game.vcxproj -> C:\Users\itsAr\Development\Projects\LD42\Output\Debug\Game.exe
+       FinalizeBuildStatus:
+         Deleting file "C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Game.tlog\unsuccessfulbuild".
+         Touching "C:\Users\itsAr\Development\Projects\LD42\Output\Intermediates\Debug\Game.tlog\Game.lastbuildstate".
+     1>Done Building Project "C:\Users\itsAr\Development\Projects\LD42\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+       "C:\Users\itsAr\Development\Projects\LD42\Game\Game.vcxproj" (Build target) (1) ->
+       (ClCompile target) -> 
+         c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(52): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+         c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(67): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+         c:\users\itsar\development\projects\ld42\game\sources\gamestates\mainmenustate.cpp(82): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+
+    3 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:08.30
